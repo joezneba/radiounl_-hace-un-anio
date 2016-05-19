@@ -36,7 +36,17 @@ angular.module('app.routes', [])
     }
   })
 
-$urlRouterProvider.otherwise('/side-menu21/page1')
+  .state('menu.contactos', {
+    url: '/page7',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/contactos.html',
+        controller: 'contactosCtrl'
+      }
+    }
+  })
+
+$urlRouterProvider.otherwise('/side-menu21/page6')
 
   
 

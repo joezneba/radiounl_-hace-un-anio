@@ -7,4 +7,8 @@ angular.module('app.controllers', [])
 .controller('quienesSomosCtrl', function($scope) {
 
 })
+   
+.controller('contactosCtrl', function($scope) {
+
+})
  
